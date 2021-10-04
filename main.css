@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-family: "Tahoma";
+	color: #fff;
+}
+html {
+	background-color: #212841;
+}
+header {
+	width: 100%;
+	background-color: #ffd800;
+	padding: 20px 0;
+	height: 450px;
+}
+.photo {
+	margin: 0px 0;
+	
+	float: left;
+}
+.photo>div {
+	padding: 10px 10px 10px 0;
+	background-color: #212841;
+	border-radius: 0 45% 45% 0;
+}
+.photo>div>div {
+	padding: 10px;
+	background-color: #ffa800;
+	border-radius: 0 45% 45% 0;
+}
+.photo img {
+	border-radius: 0 45% 45% 0;
+}
+.center {
+	text-align: center;
+}
+h1, h2 {
+	margin-top: 15px;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 40px;
+}
+.contact {
+	margin: 150px 20px;
+}
+.contact p {
+	text-align: right;
+}
+span, a {
+	color: #212841;
+	text-decoration: none;
+}
+a:hover, a:focus, a:visited {
+	color: #212841;
+	text-decoration: none;
+}
+.personal_info p {
+	font-size: 30px;
+}
+main {
+	background-color: #212841;
+	padding: 15px;
+}
+main>div {
+	display: flex;
+	justify-content: space-between;
+}
+section {
+	width: 48%;
+	padding: 20px 0;
+}
+h3 {
+	background-color: #ffa800;
+}
+section>div>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 2px;
+}
+main p {
+	color: #f8f8f8;
+}
+section div>p:last-child {
+	text-align: right;
+	margin-left: 40px; 
+}
+
+@media (max-width: 905px) {
+	header {
+		height: 500px;
+	}
+	.contact {
+		margin: 200px 20px;
+	}
+	.contact p {
+		text-align: left;
+	}
+	main>div {
+		display: block;
+	}
+	section {
+		width: auto;
+	}
+}
+@media (max-width: 755px) {
+	.contact {
+		margin: 150px 20px;
+	}
+}
+@media (max-width: 746px) {
+	.contact {
+		margin: 90px 20px;
+	}
+}
+@media (max-width: 610px) {
+	.photo {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+	.photo>div {
+		border-radius: 0;
+		padding: 10px;
+	}
+	.photo>div>div {
+		border-radius: 0;
+	}
+	.photo img {
+		border-radius: 0;
+	}
+
+	header {
+		height: 800px;
+	}
+}
+@media (max-width: 500px) {
+	.contact p {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+@media (max-width: 426px) {
+	header {
+		height: 900px;
+	}
+}
