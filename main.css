@@ -3,20 +3,27 @@
 	padding: 0;
 	font-weight: 700;
 	font-family: "Tahoma";
-	color: #fff;
 }
 html {
-	background-color: #212841;
+	background-color: #fff9da;
+	margin-left: 20px;
+}
+body {
+	margin-inline: 30px;
 }
 header {
 	width: 100%;
-	background-color: #ffd800;
 	padding: 20px 0;
-	height: 450px;
+	height: 410px;
+	padding-top: 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 0px;
+    margin-left: 15px;
 }
 .photo {
 	margin: 0px 0;
-	
+	margin-top: 16px;
 	float: left;
 }
 .photo>div {
@@ -32,61 +39,72 @@ header {
 .photo img {
 	border-radius: 0 45% 45% 0;
 }
-.center {
-	text-align: center;
-}
 h1, h2 {
-	margin-top: 15px;
+	font-size: 35px;
 }
 h1 {
-	font-size: 50px;
-}
-h2 {
-	font-size: 40px;
+	margin-top: 37px;
 }
 .contact {
-	margin: 150px 20px;
-}
-.contact p {
-	text-align: right;
+	margin: 40px 20px;
+	margin-left: 0px;
+    margin-right: 90px;
 }
 span, a {
 	color: #212841;
 	text-decoration: none;
 }
 a:hover, a:focus, a:visited {
-	color: #212841;
+	color: #5172e8;
 	text-decoration: none;
+}
+.personal_info {
+	padding: inherit;
+	width: max-content;
+	float: right;
+	border-top-width: 16px;
+	border-top-color: #ffc935;
+	border-top-style: solid;
+	border-right-width: 16px;
+	border-right-color: #ffc935;
+	border-right-style: solid;
 }
 .personal_info p {
 	font-size: 30px;
 }
 main {
-	background-color: #212841;
 	padding: 15px;
 }
-main>div {
-	display: flex;
-	justify-content: space-between;
+.maintopborder {
+	height: 23px;
+    background-color: #ffc935;
+    margin: 30px 0;
 }
-section {
-	width: 48%;
-	padding: 20px 0;
+.sidebar {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+.mainbody {
+    width: 73%;
+    float: left;
+   
 }
 h3 {
-	background-color: #ffa800;
+	background-color: #ffc935;
+	text-align: center;
 }
 section>div>div {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 2px;
+	margin-bottom: 20px;
 }
-main p {
-	color: #f8f8f8;
+section>div>div>p {
+	margin-inline: 20px;
 }
-section div>p:last-child {
-	text-align: right;
+.mainbody>section>div>div * {
 	margin-left: 40px; 
+}
+.mainbody>section>div h3 {
+	margin-left: 0;
 }
 
 @media (max-width: 905px) {
